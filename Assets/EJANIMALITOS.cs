@@ -36,12 +36,6 @@ public class EJANIMALITOS : MonoBehaviour
             int resValorG = valorG * 80;
             Debug.Log("El precio equivalente a esa cantidad de comida es de $" + resValorG);
         }
-        else if (Dias > 3)
-        {
-            Debug.Log("No se puede realizar el calculo con esa cantidad de dias");
-        }
-
-
     }
 
     // Update is called once per frame
